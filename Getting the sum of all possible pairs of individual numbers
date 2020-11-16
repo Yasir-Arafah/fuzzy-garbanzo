@@ -13,3 +13,6 @@ def possible_sum_pairs(n, ar):                    # n is the representaion of th
         res.append(k // 2)                        # dividing the values in Floor Division by 2 and appending the answers in a gloval variable which is a empty list on line 7.The list will be like this [1, 1, 1]
     d=sum(res)                                    # using the sum() built-in function I have created a new varible d which stores the sum of my list.In this case d is 3
     return d                                      # finally returning d so that I can get my final ans 
+
+
+There are so many ways to solve this particular problem.I just showed mine.Happy coding!!!!🎉🎉
