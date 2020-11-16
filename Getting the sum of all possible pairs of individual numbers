@@ -15,4 +15,4 @@ def possible_sum_pairs(n, ar):                    # n is the representaion of th
     return d                                      # finally returning d so that I can get my final ans 
 
 
-There are so many ways to solve this particular problem.I just showed mine.Happy coding!!!!🎉🎉
+There are so many ways to solve this particular problem.I have just shared mine.Happy coding!!!!🎉🎉
