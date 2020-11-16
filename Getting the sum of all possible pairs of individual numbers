@@ -5,7 +5,7 @@ So the sum of the pairs is 1+1+1=3(Ans)'''
 ## SOLUTION ##
 #First I am defining a Function named possible_sum_pairs which takes 2 parameters.One is the total number and another one is the array of a number list.
 res=[]
-def possible_sum_pairs(n, ar):                    # n is the representaion of the total number , ar is the representation of a given array
+def possible_sum_pairs(n, ar):                    # n is the representaion of the total number the given list , ar is the representation of the given array
     ar.sort()                                     # using the .sort() function it sorted the list in an ascending order like this [3, 4, 5, 5, 6, 6, 7, 7, 7]
     a=[i for i in ar if ar.count(i) > 1]          # using list comprehension method i have created a variable named a which will give me the all duplicate numbers like this [5, 5, 6, 6, 7, 7, 7]
     b=dict((j,a.count(j)) for j in a)             # then I created a new variable b which is a dictionary that gives me this {5: 2, 6: 2, 7: 3} , b tells me that i am 2 items of number 5,2 items of number 6,and 3 items of number 7           
